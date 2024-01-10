@@ -178,7 +178,9 @@
 	}
 
 	function onConfirm(): void {
-		if ($modalStore[0].response) $modalStore[0].response(true);
+		// TODO: re-enable
+		// Temporarily commented to work around https://github.com/sveltejs/svelte/issues/9611
+		// If ($modalStore[0].response) $modalStore[0].response(true);
 		modalStore.close();
 	}
 
