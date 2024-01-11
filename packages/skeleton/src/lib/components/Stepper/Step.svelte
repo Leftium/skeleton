@@ -8,7 +8,7 @@
 
 	import { getContext, onDestroy } from 'svelte';
 	import type { Writable } from 'svelte/store';
-	import { dynamicTransition } from '../../internal/transitions.js';
+	import { dynamicTransition } from '../../internal/transitions';
 
 	// Types
 	import type { StepperEventDispatcher, StepperState } from './types.js';
